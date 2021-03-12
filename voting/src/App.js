@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Voting from './Voting'
-
+// import logo from "./logo.svg";
+import "./App.css";
+import Voting from "./components/Voting";
 
 function App() {
   return (
     <div className="App">
-       <Voting />
+      <Voting />
     </div>
   );
 }
